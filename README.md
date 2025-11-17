@@ -1,9 +1,9 @@
-🚶 Person Detection App
+# 🚶 Person Detection App
 A real-time person detection web application built with Streamlit and OpenCV, featuring multiple detection methods optimized for CPU performance.
 
 https://opencv-people-detector-h8gizxyrcrhlxacwbatggn.streamlit.app/
 
-✨ Features
+# ✨ Features
 Multiple Detection Methods: Choose between YOLOv3-tiny and Haar Cascade
 
 CPU Optimized: Specifically designed for cloud deployment without GPUs
@@ -16,22 +16,22 @@ Export Results: Download processed images with bounding boxes
 
 Cross-Platform: Works on any device with a web browser
 
-🛠️ Detection Methods
-1. YOLOv3-tiny (Recommended)
+# 🛠️ Detection Methods
+# 1. YOLOv3-tiny (Recommended)
 Accuracy: Good balance of speed and accuracy
 
 Speed: ~1-3 seconds per image
 
 Best For: General purpose detection with decent accuracy
 
-2. Haar Cascade (Fastest)
+# 2. Haar Cascade (Fastest)
 Accuracy: Basic detection for clear frontal views
 
 Speed: < 1 second per image
 
 Best For: Maximum speed and simple use cases
 
-🚀 Quick Start
+# 🚀 Quick Start
 Prerequisites
 Python 3.8+
 
@@ -71,7 +71,7 @@ Main file path: app.py
 
 Click "Deploy" - your app will be live in minutes!
 
-📁 Project Structure
+# 📁 Project Structure
 text
 person-detection-app/
 
@@ -82,7 +82,7 @@ person-detection-app/
 ├── README.md             # Project documentation
 
 
-🎯 Usage Guide
+# 🎯 Usage Guide
 1. Upload Image
 Click "Browse files" in the sidebar
 
@@ -113,7 +113,7 @@ Choose smaller image sizes for faster processing
 
 JPG format typically processes faster than PNG
 
-🔧 Technical Details
+# 🔧 Technical Details
 Models Used
 YOLOv3-tiny
 
@@ -133,11 +133,8 @@ Input: Grayscale images
 
 Speed: Very fast, less accurate
 
-Performance Metrics
-Method	Speed	Accuracy	CPU Usage	Best Use Case
-YOLOv3-tiny	1-3s	Good	Medium	General purpose
-Haar Cascade	<1s	Basic	Low	Simple scenarios
-🌐 API Reference
+
+# 🌐 API Reference
 The application provides a simple web interface with the following components:
 
 Input Parameters
@@ -156,7 +153,7 @@ Detection count and confidence scores
 
 Downloadable result image
 
-🐛 Troubleshooting
+# 🐛 Troubleshooting
 Common Issues
 Slow Processing
 
@@ -195,8 +192,8 @@ Enable detailed logging by setting:
 
 python
 logging.basicConfig(level=logging.DEBUG)
-🤝 Contributing
-We welcome contributions! Please see our Contributing Guide for details.
+# 🤝 Contributing
+I welcome contributions! Please see our Contributing Guide for details.
 
 Development Setup
 bash
