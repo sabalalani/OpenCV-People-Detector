@@ -1,0 +1,22 @@
+Byte-compiled Python files
+
+pycache/
+*.pyc
+
+Operating System files
+
+.DS_Store
+Thumbs.db
+
+Virtual environments
+
+venv/
+env/
+.venv/
+
+Model Artifacts (Any trained models or weights)
+
+*.joblib
+*.pkl
+*.onnx
+*.weights
